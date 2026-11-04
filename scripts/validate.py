@@ -28,6 +28,10 @@ for p in papers:
     check(p['scope']!='main' or 2024<=p['year']<=2026,f'{p["id"]}: outside main date window')
     check(p['evidence']!='metadata_only' or p['scope']=='watchlist',f'{p["id"]}: metadata-only in main catalogue')
     check(p['scope']=='watchlist' or p.get('principle') in 'ABCDEFGR',f'{p["id"]}: missing principle category')
+    check(p.get('graph_setting') in {'static','dynamic','unverified','not_applicable'},f'{p["id"]}: missing graph time setting')
+    check(bool(p.get('temporal_evidence_zh')),f'{p["id"]}: missing temporal classification rationale')
+    if p['task'] in {'dynamic_lp','temporal_kg_completion'}:
+        check(p['graph_setting']=='dynamic',f'{p["id"]}: temporal task in wrong section')
     for url in p['sources']+([p['code_url']] if p['code_url'] else []):
         parsed=urlparse(url)
         check(parsed.scheme=='https' and bool(parsed.netloc),f'{p["id"]}: invalid URL {url}')
@@ -43,6 +47,12 @@ for p in papers:
 with (ROOT/'data/papers.csv').open(encoding='utf-8-sig',newline='') as f:
     rows=list(csv.DictReader(f))
 check([p['id'] for p in rows]==[p['id'] for p in papers],'CSV IDs differ from JSON')
+check([p['graph_setting'] for p in rows]==[p['graph_setting'] for p in papers],'CSV graph settings differ from JSON')
+setting_pages={'static':'static-graphs.md','dynamic':'dynamic-graphs.md','unverified':'temporal-unverified.md','not_applicable':'other-settings.md'}
+for setting,filename in setting_pages.items():
+    page=(ROOT/'docs'/filename).read_text()
+    ids=set(re.findall(r'\[([PW]\d{2})\]\(catalogue.md#',page))
+    check(ids=={p['id'] for p in papers if p['graph_setting']==setting},f'{filename}: missing or misplaced papers')
 bib=(ROOT/'references.bib').read_text()
 check(bib.count('@')==len(papers),'BibTeX record count mismatch')
 for p in papers:
@@ -60,6 +70,7 @@ for path in [ROOT/'README.md',*sorted((ROOT/'docs').glob('*.md'))]:
 
 report={'checked_on':'2026-11-04','records':len(papers),
     'scopes':dict(Counter(p['scope'] for p in papers)),
+    'graph_settings':dict(Counter(p['graph_setting'] for p in papers)),
     'evidence_levels':dict(Counter(p['evidence'] for p in papers)),
     'verified_code_links':sum(bool(p['code_url']) for p in papers),
     'errors':errors,

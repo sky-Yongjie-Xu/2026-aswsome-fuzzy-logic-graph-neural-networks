@@ -1,6 +1,6 @@
 # 按方法原理理解模糊逻辑与 GNN
 
-[返回总览](../README.md) · [逐篇卡片](catalogue.md)
+[返回总览](../README.md) · [静态图](static-graphs.md) · [动态图/时序图](dynamic-graphs.md) · [逐篇卡片](catalogue.md)
 
 本分类是对已收录工作的整理，不表示原作者采用相同分类名称。主分类回答“模糊机制改变了哪一步”，任务类型作为独立维度。
 

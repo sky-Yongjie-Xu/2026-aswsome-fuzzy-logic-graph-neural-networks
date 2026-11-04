@@ -30,7 +30,10 @@
     "datasets": "Ca-netscience、Ca-sandi-auths；预印本表中 70/10/20 边划分，表标有向图。",
     "checked_on": "2026-11-04",
     "principle": "B",
-    "principle_name": "模糊关系驱动的采样与注意力"
+    "principle_name": "模糊关系驱动的采样与注意力",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "dynamic 指负采样机制；已核实预印本按静态边划分评测。"
   },
   {
     "id": "P02",
@@ -62,7 +65,10 @@
     "datasets": "Cora、Citeseer、Pubmed、Power、NS、Yeast、USAir、Celegans、Router、GRQ、BUP、ZWL；正文设置 80/10/10，重复 10 次。",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P03",
@@ -93,7 +99,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "D",
-    "principle_name": "神经模糊多视图融合"
+    "principle_name": "神经模糊多视图融合",
+    "graph_setting": "unverified",
+    "graph_setting_name": "图时间设置待核实",
+    "temporal_evidence_zh": "现有一手证据不足以确认图结构随时间演化及评测设置；标题 dynamic、归纳泛化或多视图本身不足以判定。"
   },
   {
     "id": "P04",
@@ -123,7 +132,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "D",
-    "principle_name": "神经模糊多视图融合"
+    "principle_name": "神经模糊多视图融合",
+    "graph_setting": "unverified",
+    "graph_setting_name": "图时间设置待核实",
+    "temporal_evidence_zh": "现有一手证据不足以确认图结构随时间演化及评测设置；标题 dynamic、归纳泛化或多视图本身不足以判定。"
   },
   {
     "id": "P05",
@@ -157,7 +169,10 @@
     "datasets": "论文摘要：8 个真实数据集；代码 README 给出 CollegeMsg 示例，其余数据集和时间划分未逐项核实。",
     "checked_on": "2026-11-04",
     "principle": "A",
-    "principle_name": "参数、特征与表示模糊化"
+    "principle_name": "参数、特征与表示模糊化",
+    "graph_setting": "dynamic",
+    "graph_setting_name": "动态图/时序与时空图",
+    "temporal_evidence_zh": "结构与时间关联的动态图表示学习，并评估动态链接预测。"
   },
   {
     "id": "P06",
@@ -191,7 +206,10 @@
     "datasets": "Cora、CiteSeer、Pubmed 等 7 个图数据集；任务为节点分类/社区发现。",
     "checked_on": "2026-11-04",
     "principle": "A",
-    "principle_name": "参数、特征与表示模糊化"
+    "principle_name": "参数、特征与表示模糊化",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P07",
@@ -223,7 +241,10 @@
     "datasets": "Cora、CiteSeer、PubMed、Reddit、PPI；监督/自监督节点任务。",
     "checked_on": "2026-11-04",
     "principle": "B",
-    "principle_name": "模糊关系驱动的采样与注意力"
+    "principle_name": "模糊关系驱动的采样与注意力",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "dynamic 指模糊采样/隶属度随学习调整；已核实实验为固定图节点任务。"
   },
   {
     "id": "P08",
@@ -255,7 +276,10 @@
     "datasets": "Cora、CiteSeer、Pubmed、ogbn-proteins、Reddit 等节点任务及图级任务；非直接 LP 基线。",
     "checked_on": "2026-11-04",
     "principle": "A",
-    "principle_name": "参数、特征与表示模糊化"
+    "principle_name": "参数、特征与表示模糊化",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P09",
@@ -291,7 +315,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P10",
@@ -326,7 +353,10 @@
     "datasets": "Cora、Citeseer、Pubmed、DBLP、ogbn-arxiv、AmazonPhoto、AmazonComputers；节点分类/聚类。",
     "checked_on": "2026-11-04",
     "principle": "E",
-    "principle_name": "模糊边界与训练目标"
+    "principle_name": "模糊边界与训练目标",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P11",
@@ -357,7 +387,10 @@
     "datasets": "MedMNIST、MorphoMNIST 图像构图分类。",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P12",
@@ -390,7 +423,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P13",
@@ -425,7 +461,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定物理管网拓扑上的节点检测/定位组织；节点信号时间性不等于拓扑随时间变化。"
   },
   {
     "id": "P14",
@@ -460,7 +499,10 @@
     "datasets": "Cora、20Newsgroups、Pubmed；超图节点分类。",
     "checked_on": "2026-11-04",
     "principle": "B",
-    "principle_name": "模糊关系驱动的采样与注意力"
+    "principle_name": "模糊关系驱动的采样与注意力",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P15",
@@ -492,7 +534,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "A",
-    "principle_name": "参数、特征与表示模糊化"
+    "principle_name": "参数、特征与表示模糊化",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P16",
@@ -527,7 +572,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "A",
-    "principle_name": "参数、特征与表示模糊化"
+    "principle_name": "参数、特征与表示模糊化",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P17",
@@ -557,7 +605,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "not_applicable",
+    "graph_setting_name": "不适用/跨设置",
+    "temporal_evidence_zh": "EEG 疲劳程度回归与规则图学习；输入信号有时间性，不直接归为时变图学习。"
   },
   {
     "id": "P18",
@@ -590,7 +641,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "F",
-    "principle_name": "模糊语义、逻辑算子与知识推理"
+    "principle_name": "模糊语义、逻辑算子与知识推理",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P19",
@@ -621,7 +675,10 @@
     "datasets": "出版社预览涉及 FB15k-237、NELL-995、WN18RR。",
     "checked_on": "2026-11-04",
     "principle": "F",
-    "principle_name": "模糊语义、逻辑算子与知识推理"
+    "principle_name": "模糊语义、逻辑算子与知识推理",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "归纳 KG 补全中的未见实体不等于时变图；当前按无时间戳的关系补全组织。"
   },
   {
     "id": "P20",
@@ -652,7 +709,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "F",
-    "principle_name": "模糊语义、逻辑算子与知识推理"
+    "principle_name": "模糊语义、逻辑算子与知识推理",
+    "graph_setting": "dynamic",
+    "graph_setting_name": "动态图/时序与时空图",
+    "temporal_evidence_zh": "时空知识图谱五元组嵌入；具有时间语义，但不据此断言使用 GNN 或完成未来边外推。"
   },
   {
     "id": "P21",
@@ -684,7 +744,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "F",
-    "principle_name": "模糊语义、逻辑算子与知识推理"
+    "principle_name": "模糊语义、逻辑算子与知识推理",
+    "graph_setting": "dynamic",
+    "graph_setting_name": "动态图/时序与时空图",
+    "temporal_evidence_zh": "时序知识图谱推理，包含时间分层和关系时间约束。"
   },
   {
     "id": "P22",
@@ -715,7 +778,10 @@
     "datasets": "摘要报告 4 个基准、实体预测和关系预测；具体名称待全文核实。",
     "checked_on": "2026-11-04",
     "principle": "C",
-    "principle_name": "可学习规则、图后件与规则解释"
+    "principle_name": "可学习规则、图后件与规则解释",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P23",
@@ -749,7 +815,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "F",
-    "principle_name": "模糊语义、逻辑算子与知识推理"
+    "principle_name": "模糊语义、逻辑算子与知识推理",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P24",
@@ -781,7 +850,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "F",
-    "principle_name": "模糊语义、逻辑算子与知识推理"
+    "principle_name": "模糊语义、逻辑算子与知识推理",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P25",
@@ -815,7 +887,10 @@
     "datasets": "Facebook 数据，具体预处理与边划分待统一。",
     "checked_on": "2026-11-04",
     "principle": "G",
-    "principle_name": "非神经模糊图链接指标（扩展对照）"
+    "principle_name": "非神经模糊图链接指标（扩展对照）",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P26",
@@ -848,7 +923,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "G",
-    "principle_name": "非神经模糊图链接指标（扩展对照）"
+    "principle_name": "非神经模糊图链接指标（扩展对照）",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P27",
@@ -882,7 +960,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "G",
-    "principle_name": "非神经模糊图链接指标（扩展对照）"
+    "principle_name": "非神经模糊图链接指标（扩展对照）",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P28",
@@ -919,7 +1000,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "G",
-    "principle_name": "非神经模糊图链接指标（扩展对照）"
+    "principle_name": "非神经模糊图链接指标（扩展对照）",
+    "graph_setting": "unverified",
+    "graph_setting_name": "图时间设置待核实",
+    "temporal_evidence_zh": "现有一手证据不足以确认图结构随时间演化及评测设置；标题 dynamic、归纳泛化或多视图本身不足以判定。"
   },
   {
     "id": "P29",
@@ -951,7 +1035,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "G",
-    "principle_name": "非神经模糊图链接指标（扩展对照）"
+    "principle_name": "非神经模糊图链接指标（扩展对照）",
+    "graph_setting": "dynamic",
+    "graph_setting_name": "动态图/时序与时空图",
+    "temporal_evidence_zh": "按时间窗口构建机器人交互图；非神经模糊指标，具体时间外推评测协议仍待核。"
   },
   {
     "id": "P30",
@@ -983,7 +1070,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "A",
-    "principle_name": "参数、特征与表示模糊化"
+    "principle_name": "参数、特征与表示模糊化",
+    "graph_setting": "static",
+    "graph_setting_name": "静态图",
+    "temporal_evidence_zh": "按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。"
   },
   {
     "id": "P31",
@@ -1016,7 +1106,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": "R",
-    "principle_name": "领域综述"
+    "principle_name": "领域综述",
+    "graph_setting": "not_applicable",
+    "graph_setting_name": "不适用/跨设置",
+    "temporal_evidence_zh": "领域综述跨越多种图设置，不分配到静态/动态图研究模型。"
   },
   {
     "id": "W01",
@@ -1049,7 +1142,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": null,
-    "principle_name": "待核验"
+    "principle_name": "待核验",
+    "graph_setting": "unverified",
+    "graph_setting_name": "图时间设置待核实",
+    "temporal_evidence_zh": "现有一手证据不足以确认图结构随时间演化及评测设置；标题 dynamic、归纳泛化或多视图本身不足以判定。"
   },
   {
     "id": "W02",
@@ -1081,7 +1177,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": null,
-    "principle_name": "待核验"
+    "principle_name": "待核验",
+    "graph_setting": "unverified",
+    "graph_setting_name": "图时间设置待核实",
+    "temporal_evidence_zh": "现有一手证据不足以确认图结构随时间演化及评测设置；标题 dynamic、归纳泛化或多视图本身不足以判定。"
   },
   {
     "id": "W03",
@@ -1113,7 +1212,10 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": null,
-    "principle_name": "待核验"
+    "principle_name": "待核验",
+    "graph_setting": "unverified",
+    "graph_setting_name": "图时间设置待核实",
+    "temporal_evidence_zh": "现有一手证据不足以确认图结构随时间演化及评测设置；标题 dynamic、归纳泛化或多视图本身不足以判定。"
   },
   {
     "id": "W04",
@@ -1150,6 +1252,9 @@
     "datasets": "未核实",
     "checked_on": "2026-11-04",
     "principle": null,
-    "principle_name": "待核验"
+    "principle_name": "待核验",
+    "graph_setting": "dynamic",
+    "graph_setting_name": "动态图/时序与时空图",
+    "temporal_evidence_zh": "时序知识图谱推理；出版日期未核清，仅跟踪，不计入主清单。"
   }
 ]

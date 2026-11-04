@@ -6,6 +6,12 @@
     "historical_boundary": 1,
     "watchlist": 4
   },
+  "graph_settings": {
+    "static": 22,
+    "unverified": 6,
+    "dynamic": 5,
+    "not_applicable": 2
+  },
   "evidence_levels": {
     "fulltext": 10,
     "local_fulltext": 3,
