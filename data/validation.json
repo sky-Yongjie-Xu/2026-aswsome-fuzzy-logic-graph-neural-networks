@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-11-04",
+  "records": 35,
+  "scopes": {
+    "main": 30,
+    "historical_boundary": 1,
+    "watchlist": 4
+  },
+  "evidence_levels": {
+    "fulltext": 10,
+    "local_fulltext": 3,
+    "abstract": 19,
+    "metadata_only": 3
+  },
+  "verified_code_links": 7,
+  "errors": [],
+  "limitations": "Offline structural checks; not full-text scientific peer review or live external-link validation."
+}

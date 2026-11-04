@@ -1,0 +1,3760 @@
+{
+  "10.1109/tfuzz.2025.3649146": {
+    "DOI": "10.1109/tfuzz.2025.3649146",
+    "title": [
+      "GFS-Edge: Graph Fuzzy System for Edge Prediction"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6285-8916",
+        "authenticated-orcid": false,
+        "given": "Fuping",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0790-6492",
+        "authenticated-orcid": false,
+        "given": "Zhaohong",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0836-7088",
+        "authenticated-orcid": false,
+        "given": "Kup-Sze",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "TechCosmos Ltd., Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8393-6554",
+        "authenticated-orcid": false,
+        "given": "Shitong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T18:40:38Z",
+      "timestamp": 1767033638000
+    },
+    "volume": "34",
+    "issue": "3",
+    "page": "816-827",
+    "URL": "https://doi.org/10.1109/tfuzz.2025.3649146",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11316836/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/11418737/11316836.pdf?arnumber=11316836",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1007/978-3-032-05994-9_16": {
+    "DOI": "10.1007/978-3-032-05994-9_16",
+    "title": [
+      "Enhancing Link Prediction with Fuzzy Graph Attention Networks and Dynamic Negative Sampling"
+    ],
+    "author": [
+      {
+        "given": "Jinming",
+        "family": "Xing",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruilin",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chang",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dongwen",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Networks and Systems",
+      "Proceedings of the 2025 10th International Conference on Multimedia Systems and Signal Processing"
+    ],
+    "type": "book-chapter",
+    "publisher": "Springer Nature Switzerland",
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2025-09-30T23:54:27Z",
+      "timestamp": 1759276467000
+    },
+    "page": "187-197",
+    "URL": "https://doi.org/10.1007/978-3-032-05994-9_16",
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-032-05994-9_16"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-032-05994-9_16",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1002/cpe.70165": {
+    "DOI": "10.1002/cpe.70165",
+    "title": [
+      "Adaptive Deep Fuzzy Neural Network With Multi‐Headed Self‐Attention for Improving Performance of Social Network Representation Learning and Link Prediction"
+    ],
+    "author": [
+      {
+        "given": "Linh Nguyen Thi",
+        "family": "My",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Information Technology, School of Technology Van Lang University  Ho Chi Minh City Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Vu",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Training in Information Technology and Digital Transformation Thu Dau Mot University  Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tham",
+        "family": "Vo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Information Technology Nguyen Tat Thanh University  Ho Chi Minh City Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Concurrency and Computation: Practice and Experience"
+    ],
+    "type": "journal-article",
+    "publisher": "Wiley",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          25
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2025-06-17T08:00:47Z",
+      "timestamp": 1750147247000
+    },
+    "volume": "37",
+    "issue": "15-17",
+    "article-number": "e70165",
+    "URL": "https://doi.org/10.1002/cpe.70165",
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/cpe.70165"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.70165",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1142/s0218488526500340": {
+    "DOI": "10.1142/s0218488526500340",
+    "title": [
+      "Adaptive Inference Neuro-Fuzzy Driven Embedding Fusion for Improving Link Prediction Through Graph Neural Network"
+    ],
+    "author": [
+      {
+        "given": "Phu",
+        "family": "Pham",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Information Technology, HUTECH University, Ho Chi Minh City, Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "World Scientific Pub Co Pte Ltd",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          28
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          28
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2026-07-18T17:27:43Z",
+      "timestamp": 1784395663000
+    },
+    "volume": "34",
+    "issue": "07",
+    "page": "827-853",
+    "URL": "https://doi.org/10.1142/s0218488526500340",
+    "resource": {
+      "primary": {
+        "URL": "https://www.worldscientific.com/doi/10.1142/S0218488526500340"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://www.worldscientific.com/doi/pdf/10.1142/S0218488526500340",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tsmc.2023.3320749": {
+    "DOI": "10.1109/tsmc.2023.3320749",
+    "title": [
+      "Fuzzy Representation Learning on Dynamic Graphs"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8126-0733",
+        "authenticated-orcid": false,
+        "given": "Hong-Yu",
+        "family": "Yao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2112-6214",
+        "authenticated-orcid": false,
+        "given": "Yuan-Long",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6151-7028",
+        "authenticated-orcid": false,
+        "given": "Chun-Yang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2397-0793",
+        "authenticated-orcid": false,
+        "given": "Yue-Na",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shang-Jia",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2023-10-17T14:02:28Z",
+      "timestamp": 1697551348000
+    },
+    "volume": "54",
+    "issue": "2",
+    "page": "878-890",
+    "URL": "https://doi.org/10.1109/tsmc.2023.3320749",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10286559/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6221021/10403398/10286559.pdf?arnumber=10286559",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tfuzz.2024.3418902": {
+    "DOI": "10.1109/tfuzz.2024.3418902",
+    "title": [
+      "Fuzzy Neural Network for Representation Learning on Uncertain Graphs"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2397-0793",
+        "authenticated-orcid": false,
+        "given": "Yue-Na",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7319-7794",
+        "authenticated-orcid": false,
+        "given": "Hai-Chun",
+        "family": "Cai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6151-7028",
+        "authenticated-orcid": false,
+        "given": "Chun-Yang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8126-0733",
+        "authenticated-orcid": false,
+        "given": "Hong-Yu",
+        "family": "Yao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5451-7230",
+        "authenticated-orcid": false,
+        "given": "C. L.",
+        "family": "Philip Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, South China University of Technology, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2024-06-25T21:43:32Z",
+      "timestamp": 1719351812000
+    },
+    "volume": "32",
+    "issue": "9",
+    "page": "5259-5271",
+    "URL": "https://doi.org/10.1109/tfuzz.2024.3418902",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10571582/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/10665743/10571582.pdf?arnumber=10571582",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tfuzz.2024.3509018": {
+    "DOI": "10.1109/tfuzz.2024.3509018",
+    "title": [
+      "Dynamic Fuzzy Sampler for Graph Neural Networks"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2234-0378",
+        "authenticated-orcid": false,
+        "given": "Jia",
+        "family": "Wei",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Xi&#x0027;an Jiaotong University, Xi&#x0027;an, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1434-7016",
+        "authenticated-orcid": false,
+        "given": "Xingjun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Xi&#x0027;an Jiaotong University, Xi&#x0027;an, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9335-9930",
+        "authenticated-orcid": false,
+        "given": "Witold",
+        "family": "Pedrycz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Alberta, Edmonton, AB, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3180-7347",
+        "authenticated-orcid": false,
+        "given": "Weiping",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Nantong University, Nantong, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2025-01-06T15:01:30Z",
+      "timestamp": 1736175690000
+    },
+    "volume": "33",
+    "issue": "4",
+    "page": "1357-1368",
+    "URL": "https://doi.org/10.1109/tfuzz.2024.3509018",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10827821/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/10946692/10827821.pdf?arnumber=10827821",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.3233/faia240687": {
+    "DOI": "10.3233/faia240687",
+    "title": [
+      "FL-GNN: Efficient Fusion of Fuzzy Neural Network and Graph Neural Network"
+    ],
+    "author": [
+      {
+        "given": "Boyu",
+        "family": "Du",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jingya",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Soochow University"
+          },
+          {
+            "name": "Engineering Lab. of Big Data and Intelligence of Jiangsu Province, Soochow University"
+          },
+          {
+            "name": "State Key Lab. for Novel Software Technology, Nanjing University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ling",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science, Georgia Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaolong",
+        "family": "She",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Technology, Soochow University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Frontiers in Artificial Intelligence and Applications",
+      "ECAI 2024"
+    ],
+    "type": "book-chapter",
+    "publisher": "IOS Press",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          16
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          16
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2024-10-17T13:06:41Z",
+      "timestamp": 1729170401000
+    },
+    "URL": "https://doi.org/10.3233/faia240687",
+    "resource": {
+      "primary": {
+        "URL": "https://ebooks.iospress.nl/doi/10.3233/FAIA240687"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA240687",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tfuzz.2024.3465557": {
+    "DOI": "10.1109/tfuzz.2024.3465557",
+    "title": [
+      "GFS-Node: Graph Fuzzy Systems for Node Prediction"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6285-8916",
+        "authenticated-orcid": false,
+        "given": "Fuping",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0790-6492",
+        "authenticated-orcid": false,
+        "given": "Zhaohong",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9481-9599",
+        "authenticated-orcid": false,
+        "given": "Zhenping",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7552-1351",
+        "authenticated-orcid": false,
+        "given": "Te",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lab for Uncertainty in Data and Decision Making, School of Computer Science, University of Nottingham, Nottingham, U.K."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0836-7088",
+        "authenticated-orcid": false,
+        "given": "Kup-Sze",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "TechCosmos, Ltd., Hong Kong"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inspur Zhuoshu Big Data Industry Development Company Ltd., Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8393-6554",
+        "authenticated-orcid": false,
+        "given": "Shitong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Jiangnan University, Wuxi, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2024-09-20T13:28:03Z",
+      "timestamp": 1726838883000
+    },
+    "volume": "32",
+    "issue": "12",
+    "page": "6822-6834",
+    "URL": "https://doi.org/10.1109/tfuzz.2024.3465557",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10685143/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/10772364/10685143.pdf?arnumber=10685143",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tfuzz.2026.3667580": {
+    "DOI": "10.1109/tfuzz.2026.3667580",
+    "title": [
+      "Neighborhood-Aware Fuzzy Graph Convolutional Networks for Improved Information Fusion"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6321-2129",
+        "authenticated-orcid": false,
+        "given": "Bin",
+        "family": "Yu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Hunan Normal University, Changsha, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Changzheng",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Hunan Normal University, Changsha, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xu",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Engineering, Hunan Normal University, Changsha, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zeshui",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Business School, Sichuan University, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3180-7347",
+        "authenticated-orcid": false,
+        "given": "Weiping",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence and Computer Science, Nantong University, Nantong, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          4
+        ]
+      ],
+      "date-time": "2026-03-04T20:52:57Z",
+      "timestamp": 1772657577000
+    },
+    "volume": "34",
+    "issue": "5",
+    "page": "1687-1698",
+    "URL": "https://doi.org/10.1109/tfuzz.2026.3667580",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11421026/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/11505984/11421026.pdf?arnumber=11421026",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1016/j.asoc.2025.113602": {
+    "DOI": "10.1016/j.asoc.2025.113602",
+    "title": [
+      "Hypergraph representation learning based on fuzzy attention network"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5564-5311",
+        "authenticated-orcid": false,
+        "given": "Liyan",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yifan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinghui",
+        "family": "Hao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qinyu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aimin",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2373-6523",
+        "authenticated-orcid": false,
+        "given": "Jingfeng",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Applied Soft Computing"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2025-07-18T23:20:23Z",
+      "timestamp": 1752880823000
+    },
+    "volume": "183",
+    "page": "113602",
+    "article-number": "113602",
+    "URL": "https://doi.org/10.1016/j.asoc.2025.113602",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1568494625009135"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1568494625009135?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1568494625009135?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1038/s41598-026-51027-7": {
+    "DOI": "10.1038/s41598-026-51027-7",
+    "title": [
+      "Learning fuzzy representations for hypergraph node classification"
+    ],
+    "author": [
+      {
+        "given": "Zhishu",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruijing",
+        "family": "Geng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ge",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          2
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          2
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2026-05-02T04:36:32Z",
+      "timestamp": 1777696592000
+    },
+    "volume": "16",
+    "issue": "1",
+    "article-number": "20279",
+    "URL": "https://doi.org/10.1038/s41598-026-51027-7",
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-026-51027-7"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-026-51027-7",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-026-51027-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-026-51027-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1007/s00521-026-11967-7": {
+    "DOI": "10.1007/s00521-026-11967-7",
+    "title": [
+      "FuzzyGNN: a graph neural network framework for enhanced fuzzy modeling"
+    ],
+    "author": [
+      {
+        "given": "Gianluca",
+        "family": "Zaza",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Raffaele",
+        "family": "Scaringi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gennaro",
+        "family": "Vessio",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giovanna",
+        "family": "Castellano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Neural Computing and Applications"
+    ],
+    "type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2026-05-09T08:07:56Z",
+      "timestamp": 1778314076000
+    },
+    "volume": "38",
+    "issue": "10",
+    "article-number": "390",
+    "URL": "https://doi.org/10.1007/s00521-026-11967-7",
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s00521-026-11967-7"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00521-026-11967-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s00521-026-11967-7",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00521-026-11967-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1016/j.chaos.2026.118154": {
+    "DOI": "10.1016/j.chaos.2026.118154",
+    "title": [
+      "Uncertainty-Aware Hypergraph Representation Learning for Neurodegenerative Disease Detection"
+    ],
+    "author": [
+      {
+        "given": "Manman",
+        "family": "Yuan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Can",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junlin",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jun",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-1235-2818",
+        "authenticated-orcid": false,
+        "given": "Huijia",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3087-541X",
+        "authenticated-orcid": false,
+        "given": "Matjaž",
+        "family": "Perc",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Chaos, Solitons &amp; Fractals"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2026-03-03T17:39:09Z",
+      "timestamp": 1772559549000
+    },
+    "volume": "208",
+    "page": "118154",
+    "article-number": "118154",
+    "URL": "https://doi.org/10.1016/j.chaos.2026.118154",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S096007792600295X"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S096007792600295X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S096007792600295X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1016/j.eswa.2024.124090": {
+    "DOI": "10.1016/j.eswa.2024.124090",
+    "title": [
+      "Hierarchical knowledge graph relationship prediction leverage of axiomatic fuzzy set graph structure"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-8164-8811",
+        "authenticated-orcid": false,
+        "given": "Yan",
+        "family": "Fang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2252-7738",
+        "authenticated-orcid": false,
+        "given": "Qi",
+        "family": "Lang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5775-1222",
+        "authenticated-orcid": false,
+        "given": "Wei",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8652-9818",
+        "authenticated-orcid": false,
+        "given": "Xiaodong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1780-4051",
+        "authenticated-orcid": false,
+        "given": "Jianhua",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Expert Systems with Applications"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          24
+        ]
+      ],
+      "date-time": "2024-04-24T01:30:47Z",
+      "timestamp": 1713922247000
+    },
+    "volume": "251",
+    "page": "124090",
+    "article-number": "124090",
+    "URL": "https://doi.org/10.1016/j.eswa.2024.124090",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0957417424009564"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417424009564?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417424009564?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1016/j.asoc.2026.115704": {
+    "DOI": "10.1016/j.asoc.2026.115704",
+    "title": [
+      "Fuzzy set-based re-ranking for inductive knowledge graph completion"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0005-3592-7265",
+        "authenticated-orcid": false,
+        "given": "Yuki",
+        "family": "Iwamoto",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ken",
+        "family": "Kaneiwa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Applied Soft Computing"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2026-06-06T23:12:08Z",
+      "timestamp": 1780787528000
+    },
+    "volume": "201",
+    "page": "115704",
+    "article-number": "115704",
+    "URL": "https://doi.org/10.1016/j.asoc.2026.115704",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S156849462601152X"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S156849462601152X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S156849462601152X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1016/j.neucom.2025.132537": {
+    "DOI": "10.1016/j.neucom.2025.132537",
+    "title": [
+      "FSKGE: Fuzzy spatio-temporal knowledge graph embedding"
+    ],
+    "author": [
+      {
+        "given": "Xinhai",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chao",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Neurocomputing"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2025-12-27T07:20:51Z",
+      "timestamp": 1766820051000
+    },
+    "volume": "669",
+    "page": "132537",
+    "article-number": "132537",
+    "URL": "https://doi.org/10.1016/j.neucom.2025.132537",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0925231225032096"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0925231225032096?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0925231225032096?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1016/j.eswa.2026.133538": {
+    "DOI": "10.1016/j.eswa.2026.133538",
+    "title": [
+      "FATKG: Fuzzy adaptive temporal knowledge graph reasoning"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-6127-0070",
+        "authenticated-orcid": false,
+        "given": "Wenjuan",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6261-576X",
+        "authenticated-orcid": false,
+        "given": "Guozheng",
+        "family": "Rao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chunlei",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Congcong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shiyong",
+        "family": "Miao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Qing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Changliang",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Expert Systems with Applications"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2027,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2027,
+          1
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2026-07-07T23:53:29Z",
+      "timestamp": 1783468409000
+    },
+    "volume": "332",
+    "page": "133538",
+    "article-number": "133538",
+    "URL": "https://doi.org/10.1016/j.eswa.2026.133538",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0957417426024474"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417426024474?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417426024474?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1016/j.asoc.2026.114598": {
+    "DOI": "10.1016/j.asoc.2026.114598",
+    "title": [
+      "Temporal knowledge graph reasoning based on time layering and fuzzy logic rules"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9546-3208",
+        "authenticated-orcid": false,
+        "given": "Luyi",
+        "family": "Bai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qianwen",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tongji",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kejie",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Applied Soft Computing"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2026-01-12T07:33:16Z",
+      "timestamp": 1768203196000
+    },
+    "volume": "190",
+    "page": "114598",
+    "article-number": "114598",
+    "URL": "https://doi.org/10.1016/j.asoc.2026.114598",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1568494626000463"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1568494626000463?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1568494626000463?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1007/s40747-025-01925-6": {
+    "DOI": "10.1007/s40747-025-01925-6",
+    "title": [
+      "Strength prominence index: a link prediction method in fuzzy social network"
+    ],
+    "author": [
+      {
+        "given": "Sakshi Dev",
+        "family": "Pandey",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3200-8990",
+        "authenticated-orcid": false,
+        "given": "Sovan",
+        "family": "Samanta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. S.",
+        "family": "Ranadive",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leo",
+        "family": "Mrsic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antonios",
+        "family": "Kalampakas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tofigh",
+        "family": "Allahviranloo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Complex &amp; Intelligent Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          29
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          29
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          29
+        ]
+      ],
+      "date-time": "2025-05-29T04:42:27Z",
+      "timestamp": 1748493747000
+    },
+    "volume": "11",
+    "issue": "7",
+    "article-number": "307",
+    "URL": "https://doi.org/10.1007/s40747-025-01925-6",
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s40747-025-01925-6"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40747-025-01925-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s40747-025-01925-6/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s40747-025-01925-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1007/s10791-026-09939-5": {
+    "DOI": "10.1007/s10791-026-09939-5",
+    "title": [
+      "Link prediction in m-polar fuzzy environment and its application"
+    ],
+    "author": [
+      {
+        "given": "Tanmoy",
+        "family": "Mahapatra",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rupkumar",
+        "family": "Mahapatra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sovan",
+        "family": "Samanta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. G.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Madhumangal",
+        "family": "Pal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Discover Computing"
+    ],
+    "type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2026-02-06T11:58:33Z",
+      "timestamp": 1770379113000
+    },
+    "volume": "29",
+    "issue": "1",
+    "article-number": "78",
+    "URL": "https://doi.org/10.1007/s10791-026-09939-5",
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s10791-026-09939-5"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10791-026-09939-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s10791-026-09939-5",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s10791-026-09939-5.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.26599/fie.2024.9270039": {
+    "DOI": "10.26599/fie.2024.9270039",
+    "title": [
+      "Link Prediction in Co-Authorship Network Under Fuzziness and Application in Biomedical Analysis"
+    ],
+    "author": [
+      {
+        "given": "Kousik",
+        "family": "Das",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Netaji Subhas Open University,Department of Mathematics,Kolkata,India,700091"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ananta",
+        "family": "Maity",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Raja Narendra Lal Khan Women&#x0027;s College,Department of Mathematics,Midnapore,India,721102"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kajal",
+        "family": "De",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Netaji Subhas Open University,Department of Mathematics,Kolkata,India,700091"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sukumar",
+        "family": "Mondal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Raja Narendra Lal Khan Women&#x0027;s College,Department of Mathematics,Midnapore,India,721102"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sovan",
+        "family": "Samanta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Western Caspian University,Department of Technical Sciences,Baku,Azerbaijan,1001"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tofigh",
+        "family": "Allahviranloo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Center of Performance and Productivity Analysis, Istinye University,Istanbul,T&#x00FC;rkiye,34460"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Fuzzy Information and Engineering"
+    ],
+    "type": "journal-article",
+    "publisher": "Tsinghua University Press",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2024-08-08T18:24:59Z",
+      "timestamp": 1723141499000
+    },
+    "volume": "16",
+    "issue": "2",
+    "page": "155-174",
+    "URL": "https://doi.org/10.26599/fie.2024.9270039",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10631879/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10420521/10632059/10631879.pdf?arnumber=10631879",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1016/j.eswa.2023.121736": {
+    "DOI": "10.1016/j.eswa.2023.121736",
+    "title": [
+      "Generalized fuzzy hypergraph for link prediction and identification of influencers in dynamic social media networks"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2716-549X",
+        "authenticated-orcid": false,
+        "given": "Narjes",
+        "family": "Firouzkouhi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7987-9243",
+        "authenticated-orcid": false,
+        "given": "Abbas",
+        "family": "Amini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4083-1952",
+        "authenticated-orcid": false,
+        "given": "Ahmed",
+        "family": "Bani-Mustafa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arash",
+        "family": "Mehdizadeh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5500-3685",
+        "authenticated-orcid": false,
+        "given": "Sadeq",
+        "family": "Damrah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1851-159X",
+        "authenticated-orcid": false,
+        "given": "Ahmad",
+        "family": "Gholami",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5976-3457",
+        "authenticated-orcid": false,
+        "given": "Chun",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1941-5372",
+        "authenticated-orcid": false,
+        "given": "Bijan",
+        "family": "Davvaz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Expert Systems with Applications"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2023-09-26T11:43:49Z",
+      "timestamp": 1695728629000
+    },
+    "volume": "238",
+    "page": "121736",
+    "article-number": "121736",
+    "URL": "https://doi.org/10.1016/j.eswa.2023.121736",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0957417423022388"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417423022388?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417423022388?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1038/s41598-025-31705-8": {
+    "DOI": "10.1038/s41598-025-31705-8",
+    "title": [
+      "Prominence-guided link prediction in fuzzy robotic networks"
+    ],
+    "author": [
+      {
+        "given": "D. Joseph",
+        "family": "Jeyakumar",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Rajkumar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "T. P. Dayana",
+        "family": "Peter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Gomathi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2025-12-19T17:53:15Z",
+      "timestamp": 1766166795000
+    },
+    "volume": "16",
+    "issue": "1",
+    "article-number": "1938",
+    "URL": "https://doi.org/10.1038/s41598-025-31705-8",
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-025-31705-8"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-31705-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-31705-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-31705-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tnnls.2022.3208557": {
+    "DOI": "10.1109/tnnls.2022.3208557",
+    "title": [
+      "Fuzzy Graph Subspace Convolutional Network"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2423-2311",
+        "authenticated-orcid": false,
+        "given": "Jianhang",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Science, Pattern Analysis and Machine Intelligence Research Group, University of Macau, Macau, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Qi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Science, Pattern Analysis and Machine Intelligence Research Group, University of Macau, Macau, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4384-8787",
+        "authenticated-orcid": false,
+        "given": "Shaoning",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yangtze Delta Region Institute (Huzhou), University of Electronic Science and Technology of China, Chengdu, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2497-9519",
+        "authenticated-orcid": false,
+        "given": "Bob",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Science, Pattern Analysis and Machine Intelligence Research Group, University of Macau, Macau, China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2022-10-05T19:30:39Z",
+      "timestamp": 1664998239000
+    },
+    "volume": "35",
+    "issue": "4",
+    "page": "5641-5655",
+    "URL": "https://doi.org/10.1109/tnnls.2022.3208557",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9911992/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10492491/09911992.pdf?arnumber=9911992",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1016/j.ins.2024.121101": {
+    "DOI": "10.1016/j.ins.2024.121101",
+    "title": [
+      "EEG-based TSK fuzzy graph neural network for driver drowsiness estimation"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-1147-9609",
+        "authenticated-orcid": false,
+        "given": "Haotian",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jialiang",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Information Sciences"
+    ],
+    "type": "journal-article",
+    "publisher": "Elsevier BV",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2024-06-28T02:53:21Z",
+      "timestamp": 1719543201000
+    },
+    "volume": "679",
+    "page": "121101",
+    "article-number": "121101",
+    "URL": "https://doi.org/10.1016/j.ins.2024.121101",
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0020025524010156"
+      }
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020025524010156?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020025524010156?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  "10.1109/tfuzz.2025.3573914": {
+    "DOI": "10.1109/tfuzz.2025.3573914",
+    "title": [
+      "Investigating All Uncertainties in Hypergraph Representation Learning and Inference"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8126-0733",
+        "authenticated-orcid": false,
+        "given": "Hong-Yu",
+        "family": "Yao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6151-7028",
+        "authenticated-orcid": false,
+        "given": "Chun-Yang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-4654-9769",
+        "authenticated-orcid": false,
+        "given": "Qian-Xi",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer and Data Science, Fuzhou University, Fuzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5451-7230",
+        "authenticated-orcid": false,
+        "given": "C. L. Philip",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, South China University of Technology, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2025-08-06T18:02:47Z",
+      "timestamp": 1754503367000
+    },
+    "volume": "33",
+    "issue": "8",
+    "page": "2867-2881",
+    "URL": "https://doi.org/10.1109/tfuzz.2025.3573914",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11115980/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/11115977/11115980.pdf?arnumber=11115980",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/tfuzz.2026.3713494": {
+    "DOI": "10.1109/tfuzz.2026.3713494",
+    "title": [
+      "Fuzzy Federated Graph Learning via TSK Message Passing and Contrastive Uncertainty Learning"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-0526-3612",
+        "authenticated-orcid": false,
+        "given": "Zhengyang",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Shanghai University",
+            "place": [
+              "Shanghai, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3444-9992",
+        "authenticated-orcid": false,
+        "given": "Hang",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai University",
+            "place": [
+              "Shanghai, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7549-3944",
+        "authenticated-orcid": false,
+        "given": "Yusheng",
+        "family": "Liao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai Jiao Tong University",
+            "place": [
+              "Shanghai, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4577-9241",
+        "authenticated-orcid": false,
+        "given": "Xiangfeng",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai University",
+            "place": [
+              "Shanghai, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Fuzzy Systems"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2026-07-14T19:42:41Z",
+      "timestamp": 1784058161000
+    },
+    "volume": "34",
+    "issue": "9",
+    "page": "3081-3094",
+    "URL": "https://doi.org/10.1109/tfuzz.2026.3713494",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11609844/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/91/11676230/11609844.pdf?arnumber=11609844",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.4108/eetcasa.9483": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "10.1109/tpami.2026.3701743": {
+    "DOI": "10.1109/tpami.2026.3701743",
+    "title": [
+      "Complete Fuzzy Knowledge Representation With Knowledge Graph Embedding"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8779-9876",
+        "authenticated-orcid": false,
+        "given": "Haoning",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Northwestern Polytechnical University",
+            "place": [
+              "Xi’an, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1080-6940",
+        "authenticated-orcid": false,
+        "given": "Qinghua",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northwestern Polytechnical University",
+            "place": [
+              "Xi’an, China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          9
+        ]
+      ],
+      "date-time": "2026-06-09T19:52:16Z",
+      "timestamp": 1781034736000
+    },
+    "volume": "48",
+    "issue": "10",
+    "page": "12758-12775",
+    "URL": "https://doi.org/10.1109/tpami.2026.3701743",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11554916/"
+      }
+    },
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/34/11674301/11554916.pdf?arnumber=11554916",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "paper_id": "P05",
+    "repository": "https://github.com/MrYaoH/FuzzyDGL",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  },
+  {
+    "paper_id": "P06",
+    "repository": "https://github.com/MrYaoH/FuzzyGCN",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  },
+  {
+    "paper_id": "P09",
+    "repository": "https://github.com/FupingHu/GFS-node",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  },
+  {
+    "paper_id": "P11",
+    "repository": "https://github.com/basiralab/FireGNN",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  },
+  {
+    "paper_id": "P12",
+    "repository": "https://github.com/cilabuniba/fuzzygnn",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  },
+  {
+    "paper_id": "P13",
+    "repository": "https://github.com/pasqualedem/GNNLeakDetection",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  },
+  {
+    "paper_id": "P23",
+    "repository": "https://github.com/DeepGraphLearning/ULTRA",
+    "checked_on": "2026-11-04",
+    "check": "仓库 README 与论文题名/作者关联已核验；未运行代码"
+  }
+]
