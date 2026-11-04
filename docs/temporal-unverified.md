@@ -6,7 +6,11 @@
 
 本页共 6 条：主清单 3 条；时间边界/跟踪 3 条。纳入状态与图时间类型是两个独立标签。
 
+**组织层级：图时间设置 → 方法原理 → 具体论文。** 普通图 LP、KG 补全、分类等任务只作表内标签；历史边界与跟踪条目在对应原理下明确标注，不计入主清单。
+
 ## D．神经模糊多视图融合
+
+以神经模糊推理调节不同图视图或编码器表示之间的融合。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
@@ -15,11 +19,15 @@
 
 ## G．非神经模糊图链接指标（扩展对照）
 
+直接从模糊邻域、路径或关系强度计算分数，不依赖神经消息传递训练。
+
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [P28](catalogue.md#p28) | 2024 | **Generalized fuzzy hypergraph** — [Generalized fuzzy hypergraph for link prediction and identification of influencers in dynamic social media networks](https://researchers.westernsydney.edu.au/en/publications/generalized-fuzzy-hypergraph-for-link-prediction-and-identificati/) | 非神经模糊图 LP | 未定位 |
 
-## 边界与跟踪条目（不计入主清单）
+## U．原理待核实（仅出版元数据）
+
+尚无可读的一手方法证据，不根据题名补写具体机制。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|

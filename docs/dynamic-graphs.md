@@ -6,30 +6,45 @@
 
 本页共 5 条：主清单 4 条；时间边界/跟踪 1 条。纳入状态与图时间类型是两个独立标签。
 
-## 普通动态图链接预测
+**组织层级：图时间设置 → 方法原理 → 具体论文。** 普通图 LP、KG 补全、分类等任务只作表内标签；历史边界与跟踪条目在对应原理下明确标注，不计入主清单。
+
+## A．参数、特征与表示模糊化
+
+将确定特征、网络参数或隐表示扩展为模糊表示，在图传播中处理不确定性。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [P05](catalogue.md#p05) | 2024 | **FuzzyDGL** — [Fuzzy Representation Learning on Dynamic Graphs](https://ieeexplore.ieee.org/abstract/document/10286559) | 动态图 LP | [作者代码](https://github.com/MrYaoH/FuzzyDGL) |
 
-## 时序/时空知识图谱
+## F．模糊语义、逻辑算子与知识推理
+
+通过模糊语义嵌入、逻辑算子、时序规则或集合重排序完成知识推理；进一步按具体机制分组。
+
+### 时空元素模糊嵌入
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [P20](catalogue.md#p20) | 2026 | **FSKGE** — [FSKGE: Fuzzy spatio-temporal knowledge graph embedding](https://www.sciencedirect.com/science/article/pii/S0925231225032096) | 时序知识图谱补全 | 未定位 |
-| [P21](catalogue.md#p21) | 2026 | **Time layering + fuzzy rules** — [Temporal knowledge graph reasoning based on time layering and fuzzy logic rules](https://www.sciencedirect.com/science/article/abs/pii/S1568494626000463) | 时序知识图谱补全 | 未定位 |
 
-## 非神经时变图指标
+### 时间分层与模糊规则
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
-| [P29](catalogue.md#p29) | 2026 | **Robotic SP adaptation** — [Prominence-guided link prediction in fuzzy robotic networks](https://www.nature.com/articles/s41598-025-31705-8) | 非神经模糊图 LP | 未定位 |
+| [P21](catalogue.md#p21) | 2026 | **Time layering + fuzzy rules** — [Temporal knowledge graph reasoning based on time layering and fuzzy logic rules](https://www.sciencedirect.com/science/article/abs/pii/S1568494626000463) | 时序知识图谱补全 | 未定位 |
 
-## 边界与跟踪条目（不计入主清单）
+### 模糊时间隶属与贡献建模
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [W04](catalogue.md#w04) | 2027 | **FATKG**（待核/跟踪） — [FATKG: Fuzzy adaptive temporal knowledge graph reasoning](https://www.sciencedirect.com/science/article/pii/S0957417426024474) | 时序知识图谱补全 | 未定位 |
+
+## G．非神经模糊图链接指标（扩展对照）
+
+直接从模糊邻域、路径或关系强度计算分数，不依赖神经消息传递训练。
+
+| ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
+|---|---|---|---|---|
+| [P29](catalogue.md#p29) | 2026 | **Robotic SP adaptation** — [Prominence-guided link prediction in fuzzy robotic networks](https://www.nature.com/articles/s41598-025-31705-8) | 非神经模糊图 LP | 未定位 |
 
 ## 分类依据与使用边界
 

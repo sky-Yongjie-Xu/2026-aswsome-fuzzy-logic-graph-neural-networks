@@ -6,7 +6,11 @@
 
 本页共 22 条：主清单 21 条；时间边界/跟踪 1 条。纳入状态与图时间类型是两个独立标签。
 
+**组织层级：图时间设置 → 方法原理 → 具体论文。** 普通图 LP、KG 补全、分类等任务只作表内标签；历史边界与跟踪条目在对应原理下明确标注，不计入主清单。
+
 ## A．参数、特征与表示模糊化
+
+将确定特征、网络参数或隐表示扩展为模糊表示，在图传播中处理不确定性。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
@@ -14,8 +18,11 @@
 | [P08](catalogue.md#p08) | 2024 | **FL-GNN** — [FL-GNN: Efficient Fusion of Fuzzy Neural Network and Graph Neural Network](https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA240687) | 节点/图分类 | 未定位 |
 | [P15](catalogue.md#p15) | 2026 | **HyperCFN** — [Learning fuzzy representations for hypergraph node classification](https://www.nature.com/articles/s41598-026-51027-7) | 超图节点分类 | 未定位 |
 | [P16](catalogue.md#p16) | 2026 | **Uncertainty-aware FHE** — [Uncertainty-Aware Hypergraph Representation Learning for Neurodegenerative Disease Detection](https://www.sciencedirect.com/science/article/pii/S096007792600295X) | 医学分类 | 未定位 |
+| [P30](catalogue.md#p30) | 2024 | **FGSCN**（历史边界） — [Fuzzy Graph Subspace Convolutional Network](https://pubmed.ncbi.nlm.nih.gov/36197860/) | 节点分类 | 未定位 |
 
 ## B．模糊关系驱动的采样与注意力
+
+用模糊关系或隶属度控制邻域贡献、注意力或采样。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
@@ -24,6 +31,8 @@
 | [P14](catalogue.md#p14) | 2025 | **FHATN / HFATN** — [Hypergraph representation learning based on fuzzy attention network](https://www.sciencedirect.com/science/article/pii/S1568494625009135) | 超图节点分类 | 未定位 |
 
 ## C．可学习规则、图后件与规则解释
+
+显式学习规则前件/后件，或以图模型优化规则和解释。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
@@ -36,32 +45,44 @@
 
 ## E．模糊边界与训练目标
 
+用模糊边界、模糊相似性等改变表示空间中的训练目标。
+
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [P10](catalogue.md#p10) | 2025 | **Fuzzy Boundary GAE** — [Mitigating Local Cohesion and Global Sparseness in Graph Contrastive Learning with Fuzzy Boundaries](https://proceedings.mlr.press/v267/lin25b.html) | 节点分类/聚类 | 未定位 |
 
 ## F．模糊语义、逻辑算子与知识推理
 
+通过模糊语义嵌入、逻辑算子、时序规则或集合重排序完成知识推理；进一步按具体机制分组。
+
+### 语义隶属与层次表示
+
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [P18](catalogue.md#p18) | 2024 | **AFS hierarchical KG** — [Hierarchical knowledge graph relationship prediction leverage of axiomatic fuzzy set graph structure](https://www.sciencedirect.com/science/article/abs/pii/S0957417424009564) | 知识图谱补全 | 未定位 |
+
+### 模糊集合候选重排序
+
+| ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
+|---|---|---|---|---|
 | [P19](catalogue.md#p19) | 2026 | **ReDistLP** — [Fuzzy set-based re-ranking for inductive knowledge graph completion](https://www.sciencedirect.com/science/article/pii/S156849462601152X) | 知识图谱补全 | 未定位 |
+
+### 模糊逻辑真值组合
+
+| ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
+|---|---|---|---|---|
 | [P23](catalogue.md#p23) | 2024 | **UltraQuery** — [A Foundation Model for Zero-shot Logical Query Reasoning](https://arxiv.org/abs/2404.07198) | 复杂逻辑查询 | [作者代码](https://github.com/DeepGraphLearning/ULTRA) |
 | [P24](catalogue.md#p24) | 2024 | **FIT** — [Rethinking Complex Queries on Knowledge Graphs with Neural Link Predictors](https://openreview.net/pdf?id=1BmveEMNbG) | 复杂逻辑查询 | 未定位 |
 
 ## G．非神经模糊图链接指标（扩展对照）
+
+直接从模糊邻域、路径或关系强度计算分数，不依赖神经消息传递训练。
 
 | ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
 |---|---|---|---|---|
 | [P25](catalogue.md#p25) | 2025 | **SP index** — [Strength prominence index: a link prediction method in fuzzy social network](https://link.springer.com/article/10.1007/s40747-025-01925-6) | 非神经模糊图 LP | 未定位 |
 | [P26](catalogue.md#p26) | 2026 | **m-polar RMS** — [Link prediction in m-polar fuzzy environment and its application](https://link.springer.com/article/10.1007/s10791-026-09939-5) | 非神经模糊图 LP | 未定位 |
 | [P27](catalogue.md#p27) | 2024 | **Fuzzy path strength** — [Link Prediction in Co-Authorship Network Under Fuzziness and Application in Biomedical Analysis](https://xplorestaging.ieee.org/document/10631879) | 非神经模糊图 LP | 未定位 |
-
-## 边界与跟踪条目（不计入主清单）
-
-| ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |
-|---|---|---|---|---|
-| [P30](catalogue.md#p30) | 2024 | **FGSCN**（历史边界） — [Fuzzy Graph Subspace Convolutional Network](https://pubmed.ncbi.nlm.nih.gov/36197860/) | 节点分类 | 未定位 |
 
 ## 分类依据与使用边界
 

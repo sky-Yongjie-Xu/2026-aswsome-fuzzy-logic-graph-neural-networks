@@ -14,6 +14,24 @@ GROUPS={
  'F':'模糊语义、逻辑算子与知识推理',
  'G':'非神经模糊图链接指标（扩展对照）',
  'R':'领域综述',
+ 'U':'原理待核实（仅出版元数据）',
+}
+PRINCIPLE_NOTES={
+ 'A':'将确定特征、网络参数或隐表示扩展为模糊表示，在图传播中处理不确定性。',
+ 'B':'用模糊关系或隶属度控制邻域贡献、注意力或采样。',
+ 'C':'显式学习规则前件/后件，或以图模型优化规则和解释。',
+ 'D':'以神经模糊推理调节不同图视图或编码器表示之间的融合。',
+ 'E':'用模糊边界、模糊相似性等改变表示空间中的训练目标。',
+ 'F':'通过模糊语义嵌入、逻辑算子、时序规则或集合重排序完成知识推理；进一步按具体机制分组。',
+ 'G':'直接从模糊邻域、路径或关系强度计算分数，不依赖神经消息传递训练。',
+ 'R':'跨方法的文献综述。',
+ 'U':'尚无可读的一手方法证据，不根据题名补写具体机制。',
+}
+F_SUBGROUPS={
+ 'P18':'语义隶属与层次表示', 'P19':'模糊集合候选重排序',
+ 'P20':'时空元素模糊嵌入', 'P21':'时间分层与模糊规则',
+ 'P23':'模糊逻辑真值组合', 'P24':'模糊逻辑真值组合',
+ 'W04':'模糊时间隶属与贡献建模',
 }
 MAP={'fuzzy_representation':'A','sampling':'B','rule_consequent':'C',
  'interpretable_rules':'C','fusion':'D','objective':'E','kg_reasoning':'F',
@@ -52,25 +70,33 @@ def block(papers,prefix):
     lines=['| ID | 年份 | 方法与论文 | 已核实任务范围 | 代码 |','|---|---|---|---|---|']
     return lines+[row(p,prefix) for p in papers]+['']
 
+def display_group(p):
+    return 'U' if p['evidence']=='metadata_only' else group(p)
+
+def principle_blocks(papers,prefix,level):
+    lines=[]
+    for key,label in GROUPS.items():
+        selected=[p for p in papers if display_group(p)==key]
+        if not selected:continue
+        lines += ['#'*level+f' {key}．{label}','',PRINCIPLE_NOTES[key],'']
+        if key=='F':
+            for subgroup in dict.fromkeys(F_SUBGROUPS.get(p['id'],'其他模糊推理机制') for p in selected):
+                subset=[p for p in selected if F_SUBGROUPS.get(p['id'],'其他模糊推理机制')==subgroup]
+                lines += ['#'*(level+1)+' '+subgroup,'']+block(subset,prefix)
+        else:
+            lines += block(selected,prefix)
+    return lines
+
 tables=[]
 for setting,(name,filename,intro) in SETTINGS.items():
     papers=[p for p in P if p['graph_setting']==setting]
     main=[p for p in papers if p['scope']=='main']
     tables += [f'### [{name}](docs/{filename})','',f'{intro} 共 {len(papers)} 条，其中主清单 {len(main)} 条。','']
-    tables += block(papers,'docs/')
+    tables += principle_blocks(papers,'docs/',4)
     page=[f'# {name}','','[返回总览](../README.md) · [静态图](static-graphs.md) · [动态图/时序图](dynamic-graphs.md) · [时间设置待核](temporal-unverified.md)','',intro,'',
-          f'本页共 {len(papers)} 条：主清单 {len(main)} 条；时间边界/跟踪 {len(papers)-len(main)} 条。纳入状态与图时间类型是两个独立标签。','']
-    if setting=='dynamic':
-        sections=[('普通动态图链接预测',lambda p:p['task']=='dynamic_lp'),
-                  ('时序/时空知识图谱',lambda p:p['task']=='temporal_kg_completion'),
-                  ('非神经时变图指标',lambda p:p['task']=='fuzzy_graph_lp')]
-    else:
-        sections=[(f'{key}．{label}',lambda p,key=key:group(p)==key) for key,label in GROUPS.items()]
-    for heading,predicate in sections:
-        selected=[p for p in main if predicate(p)]
-        if selected:page += [f'## {heading}','']+block(selected,'')
-    extra=[p for p in papers if p['scope']!='main']
-    if extra:page += ['## 边界与跟踪条目（不计入主清单）','']+block(extra,'')
+          f'本页共 {len(papers)} 条：主清单 {len(main)} 条；时间边界/跟踪 {len(papers)-len(main)} 条。纳入状态与图时间类型是两个独立标签。','',
+          '**组织层级：图时间设置 → 方法原理 → 具体论文。** 普通图 LP、KG 补全、分类等任务只作表内标签；历史边界与跟踪条目在对应原理下明确标注，不计入主清单。','']
+    page += principle_blocks(papers,'',2)
     page += ['## 分类依据与使用边界','','| ID | 分类依据 |','|---|---|']
     page += [f"| [{p['id']}](catalogue.md#{p['id'].lower()}) | {p['temporal_evidence_zh']} |" for p in papers]
     page += ['', '原理、实验范围及原始来源见各 ID 的逐篇卡片。本页分类不新增原论文未报告的实验结论。','']
@@ -83,13 +109,18 @@ prefix,rest=readme.split(start,1);_,suffix=rest.split(end,1)
 
 cards=['# 逐篇方法与证据卡片','', '核对日期：2026-11-04。分类是本仓库的整理；“借鉴点”是分析建议，不是原论文已证明的结论。',
  '代码“未定位”只表示本轮检索未确认，不能理解为作者没有公开代码。','', '[返回总览](../README.md) · [分类原理](taxonomy.md) · [链接预测与 FL-NCNC](link-prediction.md)','']
-ordered=sorted(P,key=lambda p:list(SETTINGS).index(p['graph_setting']))
+ordered=sorted(P,key=lambda p:(list(SETTINGS).index(p['graph_setting']),list(GROUPS).index(display_group(p))))
 last_setting=None
+last_principle=None
 for p in ordered:
     if p['graph_setting']!=last_setting:
         last_setting=p['graph_setting']
+        last_principle=None
         cards += [f"## {SETTINGS[last_setting][0]}",'']
-    cards += [f"<a id=\"{p['id'].lower()}\"></a>",f"### {p['id']}．{p['method']}",'',
+    if display_group(p)!=last_principle:
+        last_principle=display_group(p)
+        cards += [f'### {last_principle}．{GROUPS[last_principle]}','']
+    cards += [f"<a id=\"{p['id'].lower()}\"></a>",f"#### {p['id']}．{p['method']}",'',
        f"**{p['title']}**",'',f"作者：{'; '.join(p['authors'])}",
        f"发表：{p['venue']}，{p['year']}。{p['date_notes']}",
        f"任务：{TASKS[p['task']]}。纳入状态：{p['scope']}。",

@@ -7,46 +7,10 @@
 
 ## 静态图工作
 
-<a id="p01"></a>
-### P01．FGAT / FNS
-
-**Enhancing Link Prediction with Fuzzy Graph Attention Networks and Dynamic Negative Sampling**
-
-作者：Jinming Xing; Ruilin Xing; Chang Xue; Dongwen Luo
-发表：Lecture Notes in Networks and Systems; Proceedings of the 2025 10th International Conference on Multimedia Systems and Signal Processing，2025。预印本 2024-11-12；v3 为 2025-02-01；正式章节 2025-10-01。合并为一条。
-任务：静态普通图 LP。纳入状态：main。
-图时间设置：静态图。dynamic 指负采样机制；已核实预印本按静态边划分评测。
-阅读证据：公开全文已读相关部分。
-
-**方法原理：** 用模糊粗糙集下近似评价候选负边，选择负样本，并将模糊关系融入 GAT 聚合。
-**实验/数据范围：** Ca-netscience、Ca-sandi-auths；预印本表中 70/10/20 边划分，表标有向图。
-**限制与区分：** 核对的预印本仅测试两个小型合作网络；不能把该结果当作 Cora 或大规模 OGB 上的证据。
-**对 FL-NCNC 的借鉴：** 优先借鉴补全候选分布上的困难负样本训练，单独验证采样与聚合的贡献。
-
-来源：[来源 1](https://arxiv.org/html/2411.07482v3) · [来源 2](https://link.springer.com/chapter/10.1007/978-3-032-05994-9_16)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
-<a id="p02"></a>
-### P02．GFS-Edge
-
-**GFS-Edge: Graph Fuzzy System for Edge Prediction**
-
-作者：Fuping Hu; Zhaohong Deng; Kup-Sze Choi; Shitong Wang
-发表：IEEE Transactions on Fuzzy Systems，2026。全文页脚：在线 2025-12-29；卷期 2026-03，34(3):816–827。
-任务：静态普通图 LP。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：用户提供全文已读相关部分（不分发全文）。
-
-**方法原理：** 以边聚类产生模糊规则前件，由线性变分图自编码器承担边后件处理；按规则激活程度组合预测。
-**实验/数据范围：** Cora、Citeseer、Pubmed、Power、NS、Yeast、USAir、Celegans、Router、GRQ、BUP、ZWL；正文设置 80/10/10，重复 10 次。
-**限制与区分：** 是完整图模糊边预测系统；与 NCNC 的潜在共同邻居补全位置不同。论文也报告大图资源限制。
-**对 FL-NCNC 的借鉴：** 学习数据驱动的规则前件，区分规则激活、图后件和最终边分数，避免仅套用 TSK 名称。
-
-来源：[来源 1](https://doi.org/10.1109/TFUZZ.2025.3649146)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+### A．参数、特征与表示模糊化
 
 <a id="p06"></a>
-### P06．FuzzyGCN
+#### P06．FuzzyGCN
 
 **Fuzzy Neural Network for Representation Learning on Uncertain Graphs**
 
@@ -64,27 +28,8 @@
 来源：[来源 1](https://doi.org/10.1109/TFUZZ.2024.3418902) · [来源 2](https://github.com/MrYaoH/FuzzyGCN)
 代码：https://github.com/MrYaoH/FuzzyGCN。作者关联仓库已核验；未运行复现。
 
-<a id="p07"></a>
-### P07．DFS
-
-**Dynamic Fuzzy Sampler for Graph Neural Networks**
-
-作者：Jia Wei; Xingjun Zhang; Witold Pedrycz; Weiping Ding
-发表：IEEE Transactions on Fuzzy Systems，2025。全文：在线 2025-01-06；卷期 2025-04。DOI 中的 2024 不是正式发表年。
-任务：节点分类。纳入状态：main。
-图时间设置：静态图。dynamic 指模糊采样/隶属度随学习调整；已核实实验为固定图节点任务。
-阅读证据：用户提供全文已读相关部分（不分发全文）。
-
-**方法原理：** 学习高斯模糊集，动态计算邻居对目标节点的隶属度，并聚合隶属度加权的邻居表示。
-**实验/数据范围：** Cora、CiteSeer、PubMed、Reddit、PPI；监督/自监督节点任务。
-**限制与区分：** dynamic 指采样/隶属度随学习变化；不能据此归为时间动态图链接预测。
-**对 FL-NCNC 的借鉴：** 可迁移到潜在共同邻居的采样和贡献分配，但必须新增链接预测实验证据。
-
-来源：[来源 1](https://doi.org/10.1109/TFUZZ.2024.3509018)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
 <a id="p08"></a>
-### P08．FL-GNN
+#### P08．FL-GNN
 
 **FL-GNN: Efficient Fusion of Fuzzy Neural Network and Graph Neural Network**
 
@@ -102,122 +47,8 @@
 来源：[来源 1](https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA240687)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
-<a id="p09"></a>
-### P09．GFS-Node
-
-**GFS-Node: Graph Fuzzy Systems for Node Prediction**
-
-作者：Fuping Hu; Zhaohong Deng; Zhenping Xie; Te Zhang; Kup-Sze Choi; Fan Zhang; Shitong Wang
-发表：IEEE Transactions on Fuzzy Systems，2024。在线 2024-09-20；卷期 2024-12。
-任务：节点预测。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
-
-**方法原理：** 以核 K 虚拟中心节点聚类生成规则前件，以线性消息传递网络学习规则后件。
-**实验/数据范围：** 未核实
-**限制与区分：** 节点预测系统，与 GFS-Edge 是不同论文；不得用其源码冒充边预测源码。
-**对 FL-NCNC 的借鉴：** 规则前件与图消息传递后件分工明确，适合研究规则原型和局部图证据的对应关系。
-
-来源：[来源 1](https://ieeexplore.ieee.org/abstract/document/10685143) · [来源 2](https://github.com/FupingHu/GFS-node)
-代码：https://github.com/FupingHu/GFS-node。作者关联仓库已核验；未运行复现。
-
-<a id="p10"></a>
-### P10．Fuzzy Boundary GAE
-
-**Mitigating Local Cohesion and Global Sparseness in Graph Contrastive Learning with Fuzzy Boundaries**
-
-作者：Yuena Lin; Haichun Cai; Jun-Yi Hang; Haobo Wang; Zhen Yang; Gengyu Lyu
-发表：ICML 2025; PMLR 267:37745–37761，2025。
-任务：节点分类/聚类。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：公开全文已读相关部分。
-
-**方法原理：** 通过模糊边界扩张连接局部小群，再收缩边界促进全局聚集，改善图对比学习的表示分布。
-**实验/数据范围：** Cora、Citeseer、Pubmed、DBLP、ogbn-arxiv、AmazonPhoto、AmazonComputers；节点分类/聚类。
-**限制与区分：** 公开会议全文实验为节点分类与节点聚类；不能将表示改善当作已经验证的链接预测收益。
-**对 FL-NCNC 的借鉴：** 模糊机制可以改变优化目标，而不只是在预测后对分数加权。
-
-来源：[来源 1](https://proceedings.mlr.press/v267/lin25b.html) · [来源 2](https://raw.githubusercontent.com/mlresearch/v267/main/assets/lin25b/lin25b.pdf)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
-<a id="p11"></a>
-### P11．FireGNN
-
-**FireGNN: Neuro-Symbolic Graph Neural Networks with Trainable Fuzzy Rules for Interpretable Medical Image Classification**
-
-作者：Prajit Sengupta; Islem Rekik
-发表：arXiv; 作者仓库标注 NeurIPS 2025 Workshops，2025。
-任务：节点分类。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：公开全文已读相关部分。
-
-**方法原理：** 对度、聚类系数、两跳标签一致性等描述量构造可学习模糊条件，再与 GNN 表示融合。
-**实验/数据范围：** MedMNIST、MorphoMNIST 图像构图分类。
-**限制与区分：** 图中节点是图像；标签相关规则迁移到 LP 时不能使用验证/测试标签。Workshop 不等于 NeurIPS 主会论文。
-**对 FL-NCNC 的借鉴：** 借鉴可学习规则阈值和结构描述量，同时核查标签来源及解释忠实性。
-
-来源：[来源 1](https://arxiv.org/html/2509.10510v1) · [来源 2](https://github.com/basiralab/FireGNN)
-代码：https://github.com/basiralab/FireGNN。作者关联仓库已核验；未运行复现。
-
-<a id="p12"></a>
-### P12．FuzzyGNN
-
-**FuzzyGNN: a graph neural network framework for enhanced fuzzy modeling**
-
-作者：Gianluca Zaza; Raffaele Scaringi; Gennaro Vessio; Giovanna Castellano
-发表：Neural Computing and Applications，2026。在线 2026-05-09。
-任务：表格构图分类。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：公开全文已读相关部分。
-
-**方法原理：** 把每个表格样本的原始特征和模糊集构成图，用 GNN 建模交互，结合解释驱动剪枝提取精简规则。
-**实验/数据范围：** 未核实
-**限制与区分：** 图是样本内部构造的特征—模糊集图；不是社交/引文网络链接预测。
-**对 FL-NCNC 的借鉴：** 借鉴规则剪枝、复杂度和解释评估，不把表格分类准确率当 LP 证据。
-
-来源：[来源 1](https://link.springer.com/article/10.1007/s00521-026-11967-7) · [来源 2](https://github.com/cilabuniba/fuzzygnn)
-代码：https://github.com/cilabuniba/fuzzygnn。作者关联仓库已核验；未运行复现。
-
-<a id="p13"></a>
-### P13．FGENConv
-
-**Explainable Fuzzy GNNs for Leak Detection in Water Distribution Networks**
-
-作者：Qusai Khaled; Pasquale De Marinis; Moez Louati; David Ferras; Laura Genga; Uzay Kaymak
-发表：arXiv preprint，2026。预印本 2026-01-06。
-任务：节点分类。纳入状态：main。
-图时间设置：静态图。按固定物理管网拓扑上的节点检测/定位组织；节点信号时间性不等于拓扑随时间变化。
-阅读证据：公开全文已读相关部分。
-
-**方法原理：** 在 GENConv 漏水检测/定位模型中加入模糊机制，形成面向节点预测的规则解释。
-**实验/数据范围：** 未核实
-**限制与区分：** 摘要明确报告模糊版本的检测与定位 F1 低于 crisp GENConv；可解释性和性能需要分别评估。
-**对 FL-NCNC 的借鉴：** 提供反例：加入模糊逻辑不自动提高预测性能。
-
-来源：[来源 1](https://arxiv.org/html/2601.03062v1) · [来源 2](https://github.com/pasqualedem/GNNLeakDetection)
-代码：https://github.com/pasqualedem/GNNLeakDetection。作者关联仓库已核验；未运行复现。
-
-<a id="p14"></a>
-### P14．FHATN / HFATN
-
-**Hypergraph representation learning based on fuzzy attention network**
-
-作者：Liyan Zhang; Yifan Li; Xinghui Hao; Qinyu Zhang; Aimin Yang; Jingfeng Guo; Lei Zhang
-发表：Applied Soft Computing，2025。
-任务：超图节点分类。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
-
-**方法原理：** 分别在顶点到超边、超边到顶点的聚合中计算模糊隶属度，用它调节注意力贡献。
-**实验/数据范围：** Cora、20Newsgroups、Pubmed；超图节点分类。
-**限制与区分：** 原文预览的缩写存在 FHATN/HFATN 不一致；按同一 DOI 合并。只核实超图节点分类。
-**对 FL-NCNC 的借鉴：** 双向隶属关系可以分别表达证据贡献，但超边集合预测不等于普通二元边预测。
-
-来源：[来源 1](https://www.sciencedirect.com/science/article/pii/S1568494625009135)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
 <a id="p15"></a>
-### P15．HyperCFN
+#### P15．HyperCFN
 
 **Learning fuzzy representations for hypergraph node classification**
 
@@ -236,7 +67,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="p16"></a>
-### P16．Uncertainty-aware FHE
+#### P16．Uncertainty-aware FHE
 
 **Uncertainty-Aware Hypergraph Representation Learning for Neurodegenerative Disease Detection**
 
@@ -254,8 +85,225 @@
 来源：[来源 1](https://www.sciencedirect.com/science/article/pii/S096007792600295X) · [来源 2](https://www.matjazperc.com/publications/ChaosSolitonsFractals_208_118154.pdf)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
+<a id="p30"></a>
+#### P30．FGSCN
+
+**Fuzzy Graph Subspace Convolutional Network**
+
+作者：Jianhang Zhou; Qi Zhang; Shaoning Zeng; Bob Zhang
+发表：IEEE Transactions on Neural Networks and Learning Systems，2024。2022 在线；TNNLS 35(4):5641–5655 (2024)。
+任务：节点分类。纳入状态：historical_boundary。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
+
+**方法原理：** 将高维邻近图与低秩子空间亲和图融合为模糊子空间图，在该图上传播局部与全局信息。
+**实验/数据范围：** 未核实
+**限制与区分：** 2024 是卷期年，工作已在 2022 在线；应作为较早基础工作，不能称为近三年新提出。
+**对 FL-NCNC 的借鉴：** 提供模糊构图路线，对照仅在补全阶段增加规则的设计。
+
+来源：[来源 1](https://pubmed.ncbi.nlm.nih.gov/36197860/)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+### B．模糊关系驱动的采样与注意力
+
+<a id="p01"></a>
+#### P01．FGAT / FNS
+
+**Enhancing Link Prediction with Fuzzy Graph Attention Networks and Dynamic Negative Sampling**
+
+作者：Jinming Xing; Ruilin Xing; Chang Xue; Dongwen Luo
+发表：Lecture Notes in Networks and Systems; Proceedings of the 2025 10th International Conference on Multimedia Systems and Signal Processing，2025。预印本 2024-11-12；v3 为 2025-02-01；正式章节 2025-10-01。合并为一条。
+任务：静态普通图 LP。纳入状态：main。
+图时间设置：静态图。dynamic 指负采样机制；已核实预印本按静态边划分评测。
+阅读证据：公开全文已读相关部分。
+
+**方法原理：** 用模糊粗糙集下近似评价候选负边，选择负样本，并将模糊关系融入 GAT 聚合。
+**实验/数据范围：** Ca-netscience、Ca-sandi-auths；预印本表中 70/10/20 边划分，表标有向图。
+**限制与区分：** 核对的预印本仅测试两个小型合作网络；不能把该结果当作 Cora 或大规模 OGB 上的证据。
+**对 FL-NCNC 的借鉴：** 优先借鉴补全候选分布上的困难负样本训练，单独验证采样与聚合的贡献。
+
+来源：[来源 1](https://arxiv.org/html/2411.07482v3) · [来源 2](https://link.springer.com/chapter/10.1007/978-3-032-05994-9_16)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+<a id="p07"></a>
+#### P07．DFS
+
+**Dynamic Fuzzy Sampler for Graph Neural Networks**
+
+作者：Jia Wei; Xingjun Zhang; Witold Pedrycz; Weiping Ding
+发表：IEEE Transactions on Fuzzy Systems，2025。全文：在线 2025-01-06；卷期 2025-04。DOI 中的 2024 不是正式发表年。
+任务：节点分类。纳入状态：main。
+图时间设置：静态图。dynamic 指模糊采样/隶属度随学习调整；已核实实验为固定图节点任务。
+阅读证据：用户提供全文已读相关部分（不分发全文）。
+
+**方法原理：** 学习高斯模糊集，动态计算邻居对目标节点的隶属度，并聚合隶属度加权的邻居表示。
+**实验/数据范围：** Cora、CiteSeer、PubMed、Reddit、PPI；监督/自监督节点任务。
+**限制与区分：** dynamic 指采样/隶属度随学习变化；不能据此归为时间动态图链接预测。
+**对 FL-NCNC 的借鉴：** 可迁移到潜在共同邻居的采样和贡献分配，但必须新增链接预测实验证据。
+
+来源：[来源 1](https://doi.org/10.1109/TFUZZ.2024.3509018)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+<a id="p14"></a>
+#### P14．FHATN / HFATN
+
+**Hypergraph representation learning based on fuzzy attention network**
+
+作者：Liyan Zhang; Yifan Li; Xinghui Hao; Qinyu Zhang; Aimin Yang; Jingfeng Guo; Lei Zhang
+发表：Applied Soft Computing，2025。
+任务：超图节点分类。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
+
+**方法原理：** 分别在顶点到超边、超边到顶点的聚合中计算模糊隶属度，用它调节注意力贡献。
+**实验/数据范围：** Cora、20Newsgroups、Pubmed；超图节点分类。
+**限制与区分：** 原文预览的缩写存在 FHATN/HFATN 不一致；按同一 DOI 合并。只核实超图节点分类。
+**对 FL-NCNC 的借鉴：** 双向隶属关系可以分别表达证据贡献，但超边集合预测不等于普通二元边预测。
+
+来源：[来源 1](https://www.sciencedirect.com/science/article/pii/S1568494625009135)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+### C．可学习规则、图后件与规则解释
+
+<a id="p02"></a>
+#### P02．GFS-Edge
+
+**GFS-Edge: Graph Fuzzy System for Edge Prediction**
+
+作者：Fuping Hu; Zhaohong Deng; Kup-Sze Choi; Shitong Wang
+发表：IEEE Transactions on Fuzzy Systems，2026。全文页脚：在线 2025-12-29；卷期 2026-03，34(3):816–827。
+任务：静态普通图 LP。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：用户提供全文已读相关部分（不分发全文）。
+
+**方法原理：** 以边聚类产生模糊规则前件，由线性变分图自编码器承担边后件处理；按规则激活程度组合预测。
+**实验/数据范围：** Cora、Citeseer、Pubmed、Power、NS、Yeast、USAir、Celegans、Router、GRQ、BUP、ZWL；正文设置 80/10/10，重复 10 次。
+**限制与区分：** 是完整图模糊边预测系统；与 NCNC 的潜在共同邻居补全位置不同。论文也报告大图资源限制。
+**对 FL-NCNC 的借鉴：** 学习数据驱动的规则前件，区分规则激活、图后件和最终边分数，避免仅套用 TSK 名称。
+
+来源：[来源 1](https://doi.org/10.1109/TFUZZ.2025.3649146)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+<a id="p09"></a>
+#### P09．GFS-Node
+
+**GFS-Node: Graph Fuzzy Systems for Node Prediction**
+
+作者：Fuping Hu; Zhaohong Deng; Zhenping Xie; Te Zhang; Kup-Sze Choi; Fan Zhang; Shitong Wang
+发表：IEEE Transactions on Fuzzy Systems，2024。在线 2024-09-20；卷期 2024-12。
+任务：节点预测。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
+
+**方法原理：** 以核 K 虚拟中心节点聚类生成规则前件，以线性消息传递网络学习规则后件。
+**实验/数据范围：** 未核实
+**限制与区分：** 节点预测系统，与 GFS-Edge 是不同论文；不得用其源码冒充边预测源码。
+**对 FL-NCNC 的借鉴：** 规则前件与图消息传递后件分工明确，适合研究规则原型和局部图证据的对应关系。
+
+来源：[来源 1](https://ieeexplore.ieee.org/abstract/document/10685143) · [来源 2](https://github.com/FupingHu/GFS-node)
+代码：https://github.com/FupingHu/GFS-node。作者关联仓库已核验；未运行复现。
+
+<a id="p11"></a>
+#### P11．FireGNN
+
+**FireGNN: Neuro-Symbolic Graph Neural Networks with Trainable Fuzzy Rules for Interpretable Medical Image Classification**
+
+作者：Prajit Sengupta; Islem Rekik
+发表：arXiv; 作者仓库标注 NeurIPS 2025 Workshops，2025。
+任务：节点分类。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：公开全文已读相关部分。
+
+**方法原理：** 对度、聚类系数、两跳标签一致性等描述量构造可学习模糊条件，再与 GNN 表示融合。
+**实验/数据范围：** MedMNIST、MorphoMNIST 图像构图分类。
+**限制与区分：** 图中节点是图像；标签相关规则迁移到 LP 时不能使用验证/测试标签。Workshop 不等于 NeurIPS 主会论文。
+**对 FL-NCNC 的借鉴：** 借鉴可学习规则阈值和结构描述量，同时核查标签来源及解释忠实性。
+
+来源：[来源 1](https://arxiv.org/html/2509.10510v1) · [来源 2](https://github.com/basiralab/FireGNN)
+代码：https://github.com/basiralab/FireGNN。作者关联仓库已核验；未运行复现。
+
+<a id="p12"></a>
+#### P12．FuzzyGNN
+
+**FuzzyGNN: a graph neural network framework for enhanced fuzzy modeling**
+
+作者：Gianluca Zaza; Raffaele Scaringi; Gennaro Vessio; Giovanna Castellano
+发表：Neural Computing and Applications，2026。在线 2026-05-09。
+任务：表格构图分类。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：公开全文已读相关部分。
+
+**方法原理：** 把每个表格样本的原始特征和模糊集构成图，用 GNN 建模交互，结合解释驱动剪枝提取精简规则。
+**实验/数据范围：** 未核实
+**限制与区分：** 图是样本内部构造的特征—模糊集图；不是社交/引文网络链接预测。
+**对 FL-NCNC 的借鉴：** 借鉴规则剪枝、复杂度和解释评估，不把表格分类准确率当 LP 证据。
+
+来源：[来源 1](https://link.springer.com/article/10.1007/s00521-026-11967-7) · [来源 2](https://github.com/cilabuniba/fuzzygnn)
+代码：https://github.com/cilabuniba/fuzzygnn。作者关联仓库已核验；未运行复现。
+
+<a id="p13"></a>
+#### P13．FGENConv
+
+**Explainable Fuzzy GNNs for Leak Detection in Water Distribution Networks**
+
+作者：Qusai Khaled; Pasquale De Marinis; Moez Louati; David Ferras; Laura Genga; Uzay Kaymak
+发表：arXiv preprint，2026。预印本 2026-01-06。
+任务：节点分类。纳入状态：main。
+图时间设置：静态图。按固定物理管网拓扑上的节点检测/定位组织；节点信号时间性不等于拓扑随时间变化。
+阅读证据：公开全文已读相关部分。
+
+**方法原理：** 在 GENConv 漏水检测/定位模型中加入模糊机制，形成面向节点预测的规则解释。
+**实验/数据范围：** 未核实
+**限制与区分：** 摘要明确报告模糊版本的检测与定位 F1 低于 crisp GENConv；可解释性和性能需要分别评估。
+**对 FL-NCNC 的借鉴：** 提供反例：加入模糊逻辑不自动提高预测性能。
+
+来源：[来源 1](https://arxiv.org/html/2601.03062v1) · [来源 2](https://github.com/pasqualedem/GNNLeakDetection)
+代码：https://github.com/pasqualedem/GNNLeakDetection。作者关联仓库已核验；未运行复现。
+
+<a id="p22"></a>
+#### P22．FGF-GAT
+
+**Complete Fuzzy Knowledge Representation With Knowledge Graph Embedding**
+
+作者：Haoning Li; Qinghua Huang
+发表：IEEE Transactions on Pattern Analysis and Machine Intelligence，2026。TPAMI 48(10):12758–12775，2026-10；首次在线日期本轮未核实。
+任务：知识图谱补全。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
+
+**方法原理：** 以 ANFIS 式参数化和轻量 TSK 规则将元素隶属度转换为可靠性信号，调节 GAT 邻域聚合；解码器注入隶属信息。
+**实验/数据范围：** 摘要报告 4 个基准、实体预测和关系预测；具体名称待全文核实。
+**限制与区分：** 仅核对作者摘要与出版元数据；依赖细粒度模糊 KG 的元素级隶属信息，普通 Cora 不直接具备这些输入。
+**对 FL-NCNC 的借鉴：** 与可靠性调节补全贡献最相关；必须说明 FL-NCNC 的不确定性来源和信息条件有何不同。
+
+来源：[来源 1](https://pubmed.ncbi.nlm.nih.gov/42262954/) · [来源 2](https://doi.org/10.1109/TPAMI.2026.3701743)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+### E．模糊边界与训练目标
+
+<a id="p10"></a>
+#### P10．Fuzzy Boundary GAE
+
+**Mitigating Local Cohesion and Global Sparseness in Graph Contrastive Learning with Fuzzy Boundaries**
+
+作者：Yuena Lin; Haichun Cai; Jun-Yi Hang; Haobo Wang; Zhen Yang; Gengyu Lyu
+发表：ICML 2025; PMLR 267:37745–37761，2025。
+任务：节点分类/聚类。纳入状态：main。
+图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
+阅读证据：公开全文已读相关部分。
+
+**方法原理：** 通过模糊边界扩张连接局部小群，再收缩边界促进全局聚集，改善图对比学习的表示分布。
+**实验/数据范围：** Cora、Citeseer、Pubmed、DBLP、ogbn-arxiv、AmazonPhoto、AmazonComputers；节点分类/聚类。
+**限制与区分：** 公开会议全文实验为节点分类与节点聚类；不能将表示改善当作已经验证的链接预测收益。
+**对 FL-NCNC 的借鉴：** 模糊机制可以改变优化目标，而不只是在预测后对分数加权。
+
+来源：[来源 1](https://proceedings.mlr.press/v267/lin25b.html) · [来源 2](https://raw.githubusercontent.com/mlresearch/v267/main/assets/lin25b/lin25b.pdf)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
+### F．模糊语义、逻辑算子与知识推理
+
 <a id="p18"></a>
-### P18．AFS hierarchical KG
+#### P18．AFS hierarchical KG
 
 **Hierarchical knowledge graph relationship prediction leverage of axiomatic fuzzy set graph structure**
 
@@ -274,7 +322,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="p19"></a>
-### P19．ReDistLP
+#### P19．ReDistLP
 
 **Fuzzy set-based re-ranking for inductive knowledge graph completion**
 
@@ -292,27 +340,8 @@
 来源：[来源 1](https://www.sciencedirect.com/science/article/pii/S156849462601152X) · [来源 2](https://arxiv.org/abs/2405.16902)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
-<a id="p22"></a>
-### P22．FGF-GAT
-
-**Complete Fuzzy Knowledge Representation With Knowledge Graph Embedding**
-
-作者：Haoning Li; Qinghua Huang
-发表：IEEE Transactions on Pattern Analysis and Machine Intelligence，2026。TPAMI 48(10):12758–12775，2026-10；首次在线日期本轮未核实。
-任务：知识图谱补全。纳入状态：main。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
-
-**方法原理：** 以 ANFIS 式参数化和轻量 TSK 规则将元素隶属度转换为可靠性信号，调节 GAT 邻域聚合；解码器注入隶属信息。
-**实验/数据范围：** 摘要报告 4 个基准、实体预测和关系预测；具体名称待全文核实。
-**限制与区分：** 仅核对作者摘要与出版元数据；依赖细粒度模糊 KG 的元素级隶属信息，普通 Cora 不直接具备这些输入。
-**对 FL-NCNC 的借鉴：** 与可靠性调节补全贡献最相关；必须说明 FL-NCNC 的不确定性来源和信息条件有何不同。
-
-来源：[来源 1](https://pubmed.ncbi.nlm.nih.gov/42262954/) · [来源 2](https://doi.org/10.1109/TPAMI.2026.3701743)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
 <a id="p23"></a>
-### P23．UltraQuery
+#### P23．UltraQuery
 
 **A Foundation Model for Zero-shot Logical Query Reasoning**
 
@@ -331,7 +360,7 @@
 代码：https://github.com/DeepGraphLearning/ULTRA。作者关联仓库已核验；未运行复现。
 
 <a id="p24"></a>
-### P24．FIT
+#### P24．FIT
 
 **Rethinking Complex Queries on Knowledge Graphs with Neural Link Predictors**
 
@@ -349,8 +378,10 @@
 来源：[来源 1](https://openreview.net/pdf?id=1BmveEMNbG) · [来源 2](https://arxiv.org/abs/2304.07063)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
+### G．非神经模糊图链接指标（扩展对照）
+
 <a id="p25"></a>
-### P25．SP index
+#### P25．SP index
 
 **Strength prominence index: a link prediction method in fuzzy social network**
 
@@ -369,7 +400,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="p26"></a>
-### P26．m-polar RMS
+#### P26．m-polar RMS
 
 **Link prediction in m-polar fuzzy environment and its application**
 
@@ -388,7 +419,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="p27"></a>
-### P27．Fuzzy path strength
+#### P27．Fuzzy path strength
 
 **Link Prediction in Co-Authorship Network Under Fuzziness and Application in Biomedical Analysis**
 
@@ -406,29 +437,12 @@
 来源：[来源 1](https://xplorestaging.ieee.org/document/10631879)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
-<a id="p30"></a>
-### P30．FGSCN
-
-**Fuzzy Graph Subspace Convolutional Network**
-
-作者：Jianhang Zhou; Qi Zhang; Shaoning Zeng; Bob Zhang
-发表：IEEE Transactions on Neural Networks and Learning Systems，2024。2022 在线；TNNLS 35(4):5641–5655 (2024)。
-任务：节点分类。纳入状态：historical_boundary。
-图时间设置：静态图。按固定图/图样本或无显式时间维度的任务组织；不意味着图来自现实静止系统。
-阅读证据：一手摘要/预览；完整方法和实验未逐项核验。
-
-**方法原理：** 将高维邻近图与低秩子空间亲和图融合为模糊子空间图，在该图上传播局部与全局信息。
-**实验/数据范围：** 未核实
-**限制与区分：** 2024 是卷期年，工作已在 2022 在线；应作为较早基础工作，不能称为近三年新提出。
-**对 FL-NCNC 的借鉴：** 提供模糊构图路线，对照仅在补全阶段增加规则的设计。
-
-来源：[来源 1](https://pubmed.ncbi.nlm.nih.gov/36197860/)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
 ## 动态图与时序/时空图工作
 
+### A．参数、特征与表示模糊化
+
 <a id="p05"></a>
-### P05．FuzzyDGL
+#### P05．FuzzyDGL
 
 **Fuzzy Representation Learning on Dynamic Graphs**
 
@@ -446,8 +460,10 @@
 来源：[来源 1](https://ieeexplore.ieee.org/abstract/document/10286559) · [来源 2](https://github.com/MrYaoH/FuzzyDGL)
 代码：https://github.com/MrYaoH/FuzzyDGL。作者关联仓库已核验；未运行复现。
 
+### F．模糊语义、逻辑算子与知识推理
+
 <a id="p20"></a>
-### P20．FSKGE
+#### P20．FSKGE
 
 **FSKGE: Fuzzy spatio-temporal knowledge graph embedding**
 
@@ -466,7 +482,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="p21"></a>
-### P21．Time layering + fuzzy rules
+#### P21．Time layering + fuzzy rules
 
 **Temporal knowledge graph reasoning based on time layering and fuzzy logic rules**
 
@@ -484,27 +500,8 @@
 来源：[来源 1](https://www.sciencedirect.com/science/article/abs/pii/S1568494626000463)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
-<a id="p29"></a>
-### P29．Robotic SP adaptation
-
-**Prominence-guided link prediction in fuzzy robotic networks**
-
-作者：D. Joseph Jeyakumar; V. Rajkumar; T. P. Dayana Peter; N. Gomathi
-发表：Scientific Reports，2026。出版社页面：Published 2025-12-19；Version of record 2026-01-14；Sci Rep 16 (2026)。
-任务：非神经模糊图 LP。纳入状态：main。
-图时间设置：动态图/时序与时空图。按时间窗口构建机器人交互图；非神经模糊指标，具体时间外推评测协议仍待核。
-阅读证据：公开全文已读相关部分。
-
-**方法原理：** 将 SP 指标迁移到机器人交互图，以通信质量、资源状态等定义节点和边的模糊隶属度。
-**实验/数据范围：** 未核实
-**限制与区分：** 应用扩展而非 GNN 新架构；真实通信隶属输入与 Cora 二值边不同。
-**对 FL-NCNC 的借鉴：** 借鉴可观测的可靠性信号，避免将模糊隶属度无依据地称为概率。
-
-来源：[来源 1](https://www.nature.com/articles/s41598-025-31705-8)
-代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
-
 <a id="w04"></a>
-### W04．FATKG
+#### W04．FATKG
 
 **FATKG: Fuzzy adaptive temporal knowledge graph reasoning**
 
@@ -522,10 +519,33 @@
 来源：[来源 1](https://www.sciencedirect.com/science/article/pii/S0957417426024474)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
+### G．非神经模糊图链接指标（扩展对照）
+
+<a id="p29"></a>
+#### P29．Robotic SP adaptation
+
+**Prominence-guided link prediction in fuzzy robotic networks**
+
+作者：D. Joseph Jeyakumar; V. Rajkumar; T. P. Dayana Peter; N. Gomathi
+发表：Scientific Reports，2026。出版社页面：Published 2025-12-19；Version of record 2026-01-14；Sci Rep 16 (2026)。
+任务：非神经模糊图 LP。纳入状态：main。
+图时间设置：动态图/时序与时空图。按时间窗口构建机器人交互图；非神经模糊指标，具体时间外推评测协议仍待核。
+阅读证据：公开全文已读相关部分。
+
+**方法原理：** 将 SP 指标迁移到机器人交互图，以通信质量、资源状态等定义节点和边的模糊隶属度。
+**实验/数据范围：** 未核实
+**限制与区分：** 应用扩展而非 GNN 新架构；真实通信隶属输入与 Cora 二值边不同。
+**对 FL-NCNC 的借鉴：** 借鉴可观测的可靠性信号，避免将模糊隶属度无依据地称为概率。
+
+来源：[来源 1](https://www.nature.com/articles/s41598-025-31705-8)
+代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
+
 ## 时间设置待核实
 
+### D．神经模糊多视图融合
+
 <a id="p03"></a>
-### P03．AFGRL（模糊多视图）
+#### P03．AFGRL（模糊多视图）
 
 **Adaptive Deep Fuzzy Neural Network With Multi‐Headed Self‐Attention for Improving Performance of Social Network Representation Learning and Link Prediction**
 
@@ -544,7 +564,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="p04"></a>
-### P04．AFGNN
+#### P04．AFGNN
 
 **Adaptive Inference Neuro-Fuzzy Driven Embedding Fusion for Improving Link Prediction Through Graph Neural Network**
 
@@ -562,8 +582,10 @@
 来源：[来源 1](https://www.worldscientific.com/doi/10.1142/S0218488526500340) · [来源 2](https://api.crossref.org/works/10.1142/S0218488526500340)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
+### G．非神经模糊图链接指标（扩展对照）
+
 <a id="p28"></a>
-### P28．Generalized fuzzy hypergraph
+#### P28．Generalized fuzzy hypergraph
 
 **Generalized fuzzy hypergraph for link prediction and identification of influencers in dynamic social media networks**
 
@@ -581,8 +603,10 @@
 来源：[来源 1](https://researchers.westernsydney.edu.au/en/publications/generalized-fuzzy-hypergraph-for-link-prediction-and-identificati/) · [来源 2](https://doi.org/10.1016/j.eswa.2023.121736)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
+### U．原理待核实（仅出版元数据）
+
 <a id="w01"></a>
-### W01．NAFGCN
+#### W01．NAFGCN
 
 **Neighborhood-Aware Fuzzy Graph Convolutional Networks for Improved Information Fusion**
 
@@ -601,7 +625,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="w02"></a>
-### W02．FHRLI / FHCRL
+#### W02．FHRLI / FHCRL
 
 **Investigating All Uncertainties in Hypergraph Representation Learning and Inference**
 
@@ -620,7 +644,7 @@
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
 <a id="w03"></a>
-### W03．Fuzzy federated TSK
+#### W03．Fuzzy federated TSK
 
 **Fuzzy Federated Graph Learning via TSK Message Passing and Contrastive Uncertainty Learning**
 
@@ -640,8 +664,10 @@
 
 ## 跨设置综述与其他任务
 
+### C．可学习规则、图后件与规则解释
+
 <a id="p17"></a>
-### P17．TSKG
+#### P17．TSKG
 
 **EEG-based TSK fuzzy graph neural network for driver drowsiness estimation**
 
@@ -659,8 +685,10 @@
 来源：[来源 1](https://www.sciencedirect.com/science/article/pii/S0020025524010156)
 代码：本轮未定位到已核验作者代码。本轮未定位到已核验作者代码。
 
+### R．领域综述
+
 <a id="p31"></a>
-### P31．FGNN review
+#### P31．FGNN review
 
 **Fuzzy Graph Neural Networks: A Comprehensive Review of Uncertainty-Aware Graph Learning**
 
